@@ -77,7 +77,7 @@ Each element can be refined independently, and future model improvements can plu
 
 We have mapped out the interaction logic and user flow in FigJam to visualize how the different tools connect.
 
-![UI Workflow](./assets/ui-workflow.png)
+![UI Workflow](./docs/ui-workflow.png)
 
 > **[Click here to view the live FigJam board](https://www.figma.com/board/T8jaC6izbnxp6fyRqjk7mP/Untitled?node-id=0-1&t=X8Rz4ZJYmGZGuqK4-1)**
 
