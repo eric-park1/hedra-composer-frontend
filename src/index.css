@@ -1,0 +1,38 @@
+/* 1. IMPORT FONTS (MUST BE FIRST) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. GLOBAL STYLES */
+body {
+  @apply bg-sidebar-bg text-white font-sans;
+}
+
+/* 3. SCALABLE EFFECTS SYSTEM */
+.tool-btn-active {
+  background-color: #27272A; 
+  border: 1px solid #3F3F46;
+  box-shadow: inset 0px 5px 6px rgba(255, 255, 255, 0.12), inset 0px -5px 5px rgba(0, 0, 0, 0.4), inset 0px -2px 4px rgba(255, 255, 255, 0.05);
+}
+
+/* BUTTON STATES */
+
+/* State 1: Disabled */
+.btn-state-1 {
+  background-color: rgba(24, 24, 27, 0.8);
+  box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 2px 4px 0px rgba(0, 0, 0, 0.25), inset 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* State 2: Usable */
+.btn-state-2 {
+  @apply bg-shark-light text-alabaster;
+  box-shadow: inset 0px -2px 4px 1px rgba(255, 255, 255, 0.05), inset 0px -5px 5px 1px rgba(0, 0, 0, 0.4), inset 0px 5px 6px 1px rgba(255, 255, 255, 0.12), inset 0px 5px 6px 1px rgba(255, 255, 255, 0.12);
+}
+
+/* State 3: Active/Clip */
+.btn-state-3 {
+  @apply bg-lightning-yellow text-woodsmoke-dark;
+  box-shadow: inset 0px -2px 4px 1px rgba(255, 255, 255, 0.05), inset 0px -5px 5px 1px rgba(0, 0, 0, 0.4), inset 0px 5px 6px 1px rgba(255, 255, 255, 0.12), inset 0px 5px 6px 1px rgba(255, 255, 255, 0.12);
+}
