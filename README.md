@@ -25,12 +25,12 @@ To run this project locally, follow these steps:
 
 4.  **Start the development server**
     ```bash
-    npm start
+    npm run dev
     # or
-    yarn start
+    yarn dev
     ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
 ## Introduction
 
